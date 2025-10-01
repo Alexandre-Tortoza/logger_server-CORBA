@@ -1,0 +1,15 @@
+module LoggerServer {
+
+  enum Severidade {DEBUG, WARNING, ERROR, CRITICAL};
+
+  interface Logger{
+    attribute boolean verbose;
+      void log(
+      in Severidade severidade,
+      in string endereco,
+      in string pid,
+      in string hora,
+      in string msg
+    );
+  };
+};
