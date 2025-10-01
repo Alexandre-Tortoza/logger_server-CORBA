@@ -1,4 +1,7 @@
+;+ Alexandre Marques Tortoza Canoa
+;-
 module LoggerServer {
+
 
   enum Severidade {DEBUG, WARNING, ERROR, CRITICAL};
 
